@@ -1,0 +1,24 @@
+# IDEA Project Files
+.idea/
+*.iml
+
+# VIM swap files
+.*.swp
+
+# Gradle Temporary Files
+.gradle/
+build/
+classes/
+bin/
+
+# Git merge files
+*.orig
+
+# .Class file output
+/out
+
+*.ipr
+*.iws
+/gradle
+gradlew
+gradlew.bat

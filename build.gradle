@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter:$SPRING_BOOT_VERSION"
+    compile("org.apache.commons:commons-lang3:$COMMONS_LANG3_VERSION")
+    compile("com.google.guava:guava:$GUAVA_VERSION")
+}
